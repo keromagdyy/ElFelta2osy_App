@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment2">
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.auth.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.auth.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registerFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.auth.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/tokenFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.auth.TokenFragment"
+        android:label="fragment_token"
+        tools:layout="@layout/fragment_token" />
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/holyBookFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.holyBook.HolyBookFragment"
+        android:label="fragment_holy_book"
+        tools:layout="@layout/fragment_holy_book" />
+    <fragment
+        android:id="@+id/lectureFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.lecture.LectureFragment"
+        android:label="fragment_lecture"
+        tools:layout="@layout/fragment_lecture" />
+    <fragment
+        android:id="@+id/photosFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.photos.PhotosFragment"
+        android:label="fragment_photos"
+        tools:layout="@layout/fragment_photos" />
+    <fragment
+        android:id="@+id/tunesFragment2"
+        android:name="StMaryCopticChurch.LightCity.Elfelta2osy.tunes.TunesFragment"
+        android:label="fragment_tunes"
+        tools:layout="@layout/fragment_tunes" />
+</navigation>
